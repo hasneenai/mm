@@ -240,7 +240,7 @@ def n1(message):
             while True:
                  skip(user)
         Threads=[] 
-        for t in range(4):
+        for t in range(1):
             x = threading.Thread(target=main)
             x.start()
             Threads.append(x)
